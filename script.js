@@ -16,4 +16,15 @@ for(let select of selects){
             newOption.selected = "selected"
         }
     }
+
+    select.addEventListener("change" , (event) => {
+        changeImage(event.target)
+    })
+}
+
+let changeImage = (event) => {
+    let currCode = event.value;
+    let countryCode = countryList[currCode];
+    let newSrc = `https://flagsapi.com/${countryCode}/flat/64.png`
+    event.previousElementSibling.src = newSrc
 }
