@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,11 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: rgb(78, 104, 79);
+    font-family: "Moderustic", sans-serif;  
+}
+
+h1{
+    margin-bottom: 2rem;
 }
 
 .container{
@@ -17,7 +24,61 @@ body{
     background-color: white;
 }
 
-form{
-    
+
+select , button , input{
+    width: 100%;
+    border: none;
 }
 
+input , button{
+    border: 1px solid lightgray;
+    padding: 0.3rem 0.4rem;
+    box-sizing: border-box;
+}
+
+.amount p{
+    margin-bottom: 0.6rem;
+}
+
+.from{
+    border: 2px solid black;
+}
+
+.conversion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.from , .to{
+    border: 1px solid lightgrey;
+    padding: 1rem;
+}
+
+.btn{
+    font-family: "Moderustic", sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(234, 136, 234);
+    cursor: pointer;
+    padding: 0.4rem 0rem;
+    margin-top: 2rem;
+}
+
+select{
+    margin: 1rem;
+}
+
+i{
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+input{
+    font-size: 1rem;
+}
