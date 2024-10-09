@@ -1,5 +1,5 @@
 const countryList = {
-    AED: "AE",
+    AED: "AE", // {currency code , country code}
     AFN: "AF",
     XCD: "AG",
     ALL: "AL",
